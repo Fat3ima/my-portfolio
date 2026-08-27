@@ -1,0 +1,216 @@
+{
+    "navbar": {
+    "fatima": "fatima",
+    "home": "home",
+    "about": "about",
+    "work": "work",
+    "contact":"contact",
+    "langButton": "Arabic",
+    "NAVIGATION": "NAVIGATION"
+    },
+    "hero": {
+    "badge": "Open to Opportunities",
+    "greeting": " Hello, I'm ",
+    "subtitle": "I Build Modern & Scalable Web Applications",
+    "description": "A Computer Science graduate and Full Stack Developer. I blend technical expertise with a passion for design to build high-precision, visually stunning, and scalable web applications.",
+    "viewWorkBtn": "View My Work",
+    "downloadCvBtn": "Download CV"
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "heading": "Developer who cares about the details.",
+    "description": "I'm a Computer Science graduate and full-stack developer with experience in building modern web applications. I specialize in React, JavaScript, HTML, CSS, Node.js, and Express, with a solid foundation in Java and C++. I focus on writing clean, maintainable code and creating user-friendly, scalable solutions."
+  },
+  "skillsData": {
+    "react": {
+      "title": "React",
+      "desc": "Build interactive UIs with Hooks, Context API, i18n, and modern architecture.",
+      "tag1": "Frontend", "tag2": "Advanced", "tag3": "1.5 Years"
+    },
+    "js": {
+      "title": "JavaScript",
+      "desc": "Core scripting language used to build dynamic logic, manipulate the DOM, and power React applications.",
+      "tag1": "Frontend", "tag2": "Advanced", "tag3": "2 Years"
+    },
+    "htmlCss": {
+      "title": "HTML5 & CSS3",
+      "desc": "Crafting structured, responsive, and visually appealing web pages with modern layout techniques like Flexbox and Grid.",
+      "tag1": "Frontend", "tag2": "Advanced", "tag3": "2 Years"
+    },
+    "mui": {
+      "title": "Material-UI (MUI)",
+      "desc": "Developing fast, responsive, and highly customizable UI components following Google's Material Design system.",
+      "tag1": "UI Library", "tag2": "Intermediate", "tag3": "1 Year"
+    },
+    "java": {
+      "title": "Java",
+      "desc": "Utilized for mastering Object-Oriented Programming (OOP) principles and building structured software applications.",
+      "tag1": "Software", "tag2": "Intermediate", "tag3": "Academic"
+    },
+    "cpp": {
+      "title": "C++",
+      "desc": "The foundation of my programming journey, used for algorithmic problem-solving and understanding low-level memory management.",
+      "tag1": "Programming", "tag2": "Intermediate", "tag3": "Academic"
+    },
+    "php": {
+      "title": "PHP",
+      "desc": "Handling core server-side scripting, database connectivity, and backend web logic templates.",
+      "tag1": "Backend", "tag2": "Intermediate", "tag3": "1 Year"
+    },
+    "flutter": {
+      "title": "Flutter",
+      "desc": "Gained core fundamentals for cross-platform mobile application development using Dart.",
+      "tag1": "Mobile", "tag2": "Beginner", "tag3": "Basics"
+    },
+    "uiUx": {
+      "title": "UI/UX & Graphic Design",
+      "desc": "Applying visual hierarchy, color theory, and user-centric design principles to create beautiful and intuitive digital experiences.",
+      "tag1": "Design", "tag2": "Beginner", "tag3": "Basics"
+    }
+  },
+  "certificatesData": {
+    "BCS": {
+      "title": "Bachelor of Science in Computer Science",
+      "issuer": "University of Basrah - College of Computer Science and Information Technology",
+      "date": "July 2025",
+      "certId": "Ranked among the Top 8 graduates",
+      "expiry": "No Expiry"
+    },
+    "AIapp": {
+      "title": "Artificial Intelligence Applications and Their Impacts on Daily Life Symposium",
+      "issuer": "College of Computer Science and Information Technology - University of Basrah",
+      "date": "26 Dec 2023",
+      "certId": "Attendance Certificate - Postgraduate Hall",
+      "expiry": "No Expiry"
+    }
+  },
+  "techStackData": {
+    "frontend": {
+      "title": "Frontend Development",
+      "desc": "React, JavaScript, HTML5, CSS3, Material-UI (MUI)"
+    },
+    "backend": {
+      "title": "Backend & Databases",
+      "desc": "PHP, Node.js basics, Core Web Logic & API Connectivity"
+    },
+    "software": {
+      "title": "Software & OOP",
+      "desc": "C++, Java, Object-Oriented Programming & Data Structures"
+    },
+    "design": {
+      "title": "Design & Mobile",
+      "desc": "UI/UX Foundations, Graphic Design, Flutter Basics"
+    }
+  }
+  ,"work": {
+    "backHome": "Back to home",
+    "sectionSubtitle": "Work",
+    "mainHeading": "All my work.",
+    "projects": "Projects",
+    "writings": "Writings",
+    "courses": "Courses",
+    "viewAll": "View all work"
+  },
+  "projects": {
+    "tabs": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "ai": "AI"
+    },
+    "searchPlaceholder": "Search...",
+    "noResults": "No results for",
+    "noProjectsYet": "No projects yet",
+    "noCategoryPart1": "No",
+    "noCategoryPart2": "projects yet",
+    "tryDifferentSearch": "Try a different search term.",
+    "willAppearHere": "Projects will appear here once added.",
+    "viewLink": "View"
+},
+  "writings": {
+    "tabs": {
+      "all": "All",
+      "book": "Book",
+      "research": "Research",
+      "article": "Article"
+    },
+    "status": {
+      "writing": "Writing...",
+      "published": "Published"
+    },
+    "searchPlaceholder": "Search...",
+    "noResults": "No results for",
+    "noWritingsYet": "No writings yet",
+    "noCategoryPart1": "No",
+    "noCategoryPart2": "added yet",
+    "tryDifferentSearch": "Try a different search term.",
+    "willAppearHere": "Writings will appear here once added.",
+    "viewLink": "View"
+  },
+  "courses": {
+    "tabs": {
+      "all": "All",
+      "ongoing": "Ongoing",
+      "completed": "Completed"
+    },
+    "status": {
+      "ongoing": "Ongoing...",
+      "completed": "Completed"
+    },
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "hours": "Hours",
+    "searchPlaceholder": "Search...",
+    "noResults": "No results for",
+    "noCoursesYet": "No courses yet",
+    "noCategoryPart1": "No",
+    "noCategoryPart2": "courses found",
+    "tryDifferentSearch": "Try a different search term.",
+    "willAppearHere": "Courses will appear here once added.",
+    "viewLink": "View"
+  },
+  "contact": {
+    "divider": "contact",
+    "title": "Let's work together.",
+    "subtitle": "Have a project in mind or just want to say hi? Fill out the form or reach out directly through any of the channels below.",
+    "findMe": "Find me on",
+    "successTitle": "Message sent!",
+    "successMessage": "Thanks for reaching out. I'll get back to you within 24 hours.",
+    "sendAnother": "Send another",
+    "formTitle": "Send a message",
+    "errorRequired": "Please fill in all required fields.",
+    "sendButton": "Send message",
+    "availabilityTitle": "Available for work",
+    "availabilityDesc": "Open to freelance projects, full-time roles, and collaborations. Usually reply within 24 hours.",
+    "labels": {
+      "name": "Your name",
+      "email": "you@example.com",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "subjects": {
+      "freelance": "Freelance Project",
+      "fullTime": "Full-time Role",
+      "collaboration": "Collaboration",
+      "sayHi": "Just saying hi 👋"
+    }
+  },
+  "footer": {
+    "brandDesc": "Full-stack software engineer building clean, scalable, and meaningful digital products.",
+    "rights": "All rights reserved",
+    "availability": "Available for work",
+    "backToTop": "Back to top",
+    "sections": {
+      "navigation": "Navigation"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "work": "Work",
+      "contact": "Contact"
+    }
+  }
+}

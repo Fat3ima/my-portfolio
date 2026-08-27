@@ -1,0 +1,28 @@
+.point {
+    animation: fulgurate 2s ease-in-out infinite alternate;
+    opacity: 0;
+}
+
+@keyframes fulgurate {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill {
+    animation: moveUpDown 2s ease-in-out infinite alternate;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

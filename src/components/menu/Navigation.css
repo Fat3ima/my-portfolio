@@ -1,0 +1,30 @@
+* {
+    font-family: "poppins";
+}
+
+.navItem:hover {
+    color: #f0f0f0;
+}
+
+.navItem.active {
+    position: relative;
+    color: #f0f0f0;
+}
+
+.navItem.active::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1.5px;
+    background: #c8ff00;
+    bottom: -14px;
+}
+
+.sidebarItem.active {
+    background: #c8ff001b;
+    border-left: 2px solid #c8ff00;
+}
+
+.sidebarItem .SidebarItemIcon.active {
+    border: 1px solid #c8ff00
+}
