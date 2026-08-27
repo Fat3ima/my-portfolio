@@ -9,9 +9,13 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: 'en',
-    load: 'languageOnly', // يمنع البحث عن en-US ويجبره على en فقط
-    nonExplicitSupportedLngs: true, // يحول en-US تلقائياً إلى en
-    debug: false, // تم إيقافه لإخفاء التنبيهات الكثيرة من الكونسول
+    load: 'languageOnly',
+    nonExplicitSupportedLngs: true,
+    debug: false,
+
+    backend: {
+      loadPath: `${import.meta.env.BASE_URL}locales/{{lng}}/translation.json`,
+    },
 
     interpolation: {
       escapeValue: false,
