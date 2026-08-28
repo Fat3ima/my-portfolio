@@ -1,222 +1,297 @@
-*{
+/* =========================
+   RESET
+========================= */
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+html {
+  width: 100%;
+  min-height: 100%;
+}
+
 body {
+  width: 100%;
+  min-height: 100vh;
   background-color: #080808;
+  font-family: "Poppins", sans-serif;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
 }
 
 .App {
   width: 100%;
-  height: auto;
+  min-height: 100vh;
 }
 
-/* ENGLISH FONTS */
+
+/* =========================
+   ENGLISH - POPPINS
+========================= */
 
 /* Thin 100 */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-Thin.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Thin 100 Italic */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-ThinItalic.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
+  font-display: swap;
 }
 
 /* ExtraLight 200 */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-ExtraLight.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 
 /* ExtraLight 200 Italic */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-ExtraLightItalic.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-ExtraLightItalic.ttf")
+    format("truetype");
   font-weight: 200;
   font-style: italic;
+  font-display: swap;
 }
 
 /* Light 300 */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-Light.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Light 300 Italic */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-LightItalic.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-LightItalic.ttf")
+    format("truetype");
   font-weight: 300;
   font-style: italic;
+  font-display: swap;
 }
 
 /* Regular 400 */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-Regular.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Regular 400 Italic */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-Italic.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
 }
 
 /* Medium 500 */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-Medium.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Medium 500 Italic */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-MediumItalic.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-MediumItalic.ttf")
+    format("truetype");
   font-weight: 500;
   font-style: italic;
+  font-display: swap;
 }
 
 /* SemiBold 600 */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-SemiBold.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-SemiBold.ttf")
+    format("truetype");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 /* SemiBold 600 Italic */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-SemiBoldItalic.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-SemiBoldItalic.ttf")
+    format("truetype");
   font-weight: 600;
   font-style: italic;
+  font-display: swap;
 }
 
 /* Bold 700 */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-Bold.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Bold 700 Italic */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-BoldItalic.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-BoldItalic.ttf")
+    format("truetype");
   font-weight: 700;
   font-style: italic;
+  font-display: swap;
 }
 
 /* ExtraBold 800 */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-ExtraBold.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-ExtraBold.ttf")
+    format("truetype");
   font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 
 /* ExtraBold 800 Italic */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-ExtraBoldItalic.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-ExtraBoldItalic.ttf")
+    format("truetype");
   font-weight: 800;
   font-style: italic;
+  font-display: swap;
 }
 
 /* Black 900 */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-Black.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Black 900 Italic */
 @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/english/poppins/Poppins-BlackItalic.ttf');
+  font-family: "Poppins";
+  src: url("/fonts/english/poppins/Poppins-BlackItalic.ttf")
+    format("truetype");
   font-weight: 900;
   font-style: italic;
+  font-display: swap;
 }
 
-/* == ENGLISH FONTS == */
 
-/* ARABIC FONTS */
+/* =========================
+   ARABIC - TAJAWAL
+========================= */
 
 /* ExtraLight 200 */
 @font-face {
-  font-family: 'Tajawal';
-  src: url('../public/fonts/arabic/tajawal/Tajawal-ExtraLight.ttf');
+  font-family: "Tajawal";
+  src: url("/fonts/arabic/tajawal/Tajawal-ExtraLight.ttf")
+    format("truetype");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Light 300 */
 @font-face {
-  font-family: 'Tajawal';
-  src: url('../public/fonts/arabic/tajawal/Tajawal-Light.ttf');
+  font-family: "Tajawal";
+  src: url("/fonts/arabic/tajawal/Tajawal-Light.ttf")
+    format("truetype");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Regular 400 */
 @font-face {
-  font-family: 'Tajawal';
-  src: url('../public/fonts/arabic/tajawal/Tajawal-Regular.ttf');
+  font-family: "Tajawal";
+  src: url("/fonts/arabic/tajawal/Tajawal-Regular.ttf")
+    format("truetype");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Medium 500 */
 @font-face {
-  font-family: 'Tajawal';
-  src: url('../public/fonts/arabic/tajawal/Tajawal-Medium.ttf');
+  font-family: "Tajawal";
+  src: url("/fonts/arabic/tajawal/Tajawal-Medium.ttf")
+    format("truetype");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Bold 700 */
 @font-face {
-  font-family: 'Tajawal';
-  src: url('../public/fonts/arabic/tajawal/Tajawal-Bold.ttf');
+  font-family: "Tajawal";
+  src: url("/fonts/arabic/tajawal/Tajawal-Bold.ttf")
+    format("truetype");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 /* ExtraBold 800 */
 @font-face {
-  font-family: 'Tajawal';
-  src: url('../public/fonts/arabic/tajawal/Tajawal-Bold.ttf');
+  font-family: "Tajawal";
+  src: url("/fonts/arabic/tajawal/Tajawal-ExtraBold.ttf")
+    format("truetype");
   font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Black 900 */
 @font-face {
-  font-family: 'Tajawal';
-  src: url('../public/fonts/arabic/tajawal/Tajawal-Black.ttf');
+  font-family: "Tajawal";
+  src: url("/fonts/arabic/tajawal/Tajawal-Black.ttf")
+    format("truetype");
   font-weight: 900;
   font-style: normal;
+  font-display: swap;
 }
 
-/*  == ARABIC FONTS == */
+
+/* =========================
+   LANGUAGE FONTS
+========================= */
+
+html[lang="ar"],
+html[dir="rtl"] {
+  font-family: "Tajawal", sans-serif;
+}
+
+html[lang="en"],
+html[dir="ltr"] {
+  font-family: "Poppins", sans-serif;
+}
