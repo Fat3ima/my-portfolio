@@ -7,7 +7,7 @@ import "./i18n";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename="/my-portfolio">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>,
